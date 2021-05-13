@@ -1,0 +1,326 @@
+body{
+    background-color: rgb(240, 243, 240);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.navbar{
+   width:100%;
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+   padding: 20px 10px;
+   margin-bottom: 20px;
+}
+.navbar .logo img{
+    width: 100%;
+}
+.navbar .logo{
+    width:40%;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.navbar ul li a{
+   text-decoration: none;
+   color: rgb(97, 85, 85);
+   font-size: 20px;
+}
+.form-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+.form-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    padding: 7px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    width:70%;
+    border-radius: 5px;
+}
+.form-section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    
+}
+.form-section .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    padding: 7px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    width:70%;
+    border-radius: 5px;
+}
+form .submit-btn{
+    padding: 8px 0px;
+    background-color: yellow;
+    margin-top: 9px;
+    width:45%;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-variant-caps: small-caps;
+    border: none;
+}
+.icon-section{
+    width:70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.icon-section .container-one{
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+.icon{
+    width:100px;
+    display: flex;
+    flex-shrink: unset;
+    justify-content: start;
+    align-items: center;
+}
+.section-text{
+    width:100%;
+    margin-left: 20px;
+    flex-shrink: unset;
+}
+i{
+    color: red;
+}
+.video-section{
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.video-section iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin: 20px auto;
+}
+.pricing-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.pricing-section .first-product{
+    border: 2px solid rgb(69, 9, 97);
+    width: 33.3%;
+    margin-right: 15px;
+    border-radius:  5px;
+}
+.pricing-section .second-product{
+    border: 2px solid rgb(69, 9, 97);
+    width: 33.3%;
+    margin-right: 15px;
+    border-radius:  5px;
+}
+.pricing-section .third-product{
+    border: 2px solid rgb(69, 9, 97);
+    width: 33.3%;
+    border-radius:  5px;
+}
+.pricing-section .price-caption{
+    background-color: rgba(182, 58, 64, 0.199);
+    height:50px ;
+    padding-top: 10px;
+    text-align: center;
+}
+.pricing-section p{
+    line-height: 30px;
+    text-align: center;
+}
+.pricing-section button{
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border: none;
+}
+footer{
+    background-color: rgba(182, 58, 64, 0.199);
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0px;
+}
+footer ul li{
+    padding: 0 5px ;
+}
+footer ul li a{
+    color: rgb(56, 197, 13);
+    padding: 10px;
+}
+
+footer ul li a:hover{
+    background-color: rgba(130, 163, 119, 0.438);
+    border-radius: 4px;
+}
+footer p{
+    margin-top: 5px;
+}
+@media (min-width: 600px){
+
+    .navbar{
+        padding-left: 5px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+     }
+
+    .navbar .logo{
+        width:30%;
+    }
+
+    .navbar ul li a{
+        font-size: 17px;
+     }
+     
+     .form-section{
+        margin-top: 0px;
+        padding: 5px;
+     }
+    
+}
+@media (max-width:  600px){
+    .navbar{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        align-items:start;
+        padding: 20px 10px;
+     }
+
+     .navbar ul{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+        padding-left: 5px;
+        margin-bottom: 0px;
+        
+    }
+
+    .navbar ul li a{
+        font-size: 18px;
+     }
+     .navbar .logo{
+        width: 100%;
+    }
+    .navbar ul li{
+        padding: 5px 5px;
+        border-bottom: 1px solid black
+    }
+    .navbar .logo img{
+        width: 70%;
+        margin: auto;
+        display: block;
+    }
+    .form-section .container h2{
+       font-size: 18px;
+    }
+    .icon-section{
+        width:100%;
+        margin: auto;
+    }    
+    .icon-section .container-one {
+        padding: 10px ;
+        margin-left:10px;
+    }
+    .video-section{
+        width: 90%;
+    }
+    .video-section iframe{
+        width: 100%;
+        height: 250px;
+    }
+    .pricing-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-section .first-product{
+        width:80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .pricing-section .second-product{
+        width:80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .pricing-section .third-product{
+        width:80%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    footer{
+        padding: 0px;
+    }
+    footer ul li{
+        padding: 0 ;
+    }
+    footer ul li a{
+        padding: 5px;
+    }
+    footer p{
+        font-size: 13px;
+    }
+}
+

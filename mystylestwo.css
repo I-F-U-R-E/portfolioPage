@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #19566B;
+     font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#title{
+    margin: auto;
+    padding: 40px;
+    color:rgb(200,166,59);
+    font-weight: 700;
+    font-size: large;
+}
+h1{
+    text-align: center;
+    padding:10px 0;
+}
+p{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 600;
+}
+.inner-box{
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 400px;
+    height: 1400px;
+    background-color: #106979;
+    border-radius: 5px;
+    box-shadow: 0 0 40px 20px rgba(200,166,59,0.26);
+    font-size: large;
+
+}
+
+form p{
+    text-align: left;
+    /* font-size: 15px; */
+    font-weight: 700;
+    color:rgb(200,166,59);
+}
+ .input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    color: rgb(200,166,59);
+    font-weight: 700;
+    padding: 5px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    padding: 5px;
+    font-size: large;
+}
+ .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+ .checkbox-style{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+ }
+ .container:hover .input ~ .checkbox-style {
+    background-color: rgb(107, 101, 101);
+}
+#subject{
+    width: 100%;
+    height: 100px;
+}
+.btn{
+    width: 100%;
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: rgb(110, 168, 17);
+    cursor: grabbing;
+    font-size: large;
+}
+@media screen and (max-width: 640px) {
+    body {
+       background-color: rgb(50, 91, 180);
+    }
+  }              

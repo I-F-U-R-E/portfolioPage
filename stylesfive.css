@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:rgb(149,139,132);
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(149,139,132,0.5),rgba(149,139,132,0.5)),url(https://res.cloudinary.com/dd9p2qxpz/image/upload/v1620219406/TKWL9320.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 70px;
+}
+.container .navbar{
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.container .navbar .link-one{
+    display:inline-block;
+    padding:5px 20px;
+    color:white;
+    text-decoration: none;
+    transition: 0.3s ease;
+    
+}
+.container .navbar a:hover{
+    background-color: rgba(222, 184, 135, 0.164);
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+.container .container-one{
+    margin: 100px;
+    margin-bottom: 100px;
+    color:white;
+}
+section{
+    display: flex;
+    background-color: rgba(63, 60, 57, 0.842);
+    border: 1px solid white;
+}
+section .img{
+    width: 50%;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+section  .img img{
+    width:70%;
+}
+section .my-experience{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section .my-experience .text{
+    padding: 10px;
+    max-width: 70%;
+    line-height: 23px;
+    font-size: 15px;
+    color:burlywood;
+
+}
+section .my-experience .text .section-header{
+    padding: 10px 50px;
+}
+.portfolio-page{
+    background:rgba(17, 2, 2, 0.685);
+    border: 1px solid black;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: auto;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.portfolio-page .portfolio{
+    width:400px ;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+.portfolio-page .portfolio a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-variant: small-caps;
+    transition: 0.4s;
+}
+.portfolio-page .portfolio a:hover{
+    
+
+}
+.portfolio-page .portfolio a img{
+    border-radius: 10px;
+    width:100%;
+    height: 340px;
+}
+.portfolio-page .portfolio a  p{
+    padding: 20px 0;
+}
+.connect{
+    background-color:rgba(10, 8, 6, 0.795);
+    width: 100%;
+    padding-bottom: 20px;
+}
+.connect .connect-header{
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+.connect .icon-section{
+    width: 70%;
+    display: flex;
+    margin-top: 50px;
+    margin: auto;
+    justify-content:space-evenly;
+
+}
+.connect .icon-section a{
+    text-decoration: none;
+    font-weight: 30px;
+    color: white;
+    align-items: center;
+    display: block;
+    font-weight: 600;
+    padding: 10px 0;
+    transition: 0.4s;
+}
+.connect .icon-section a:hover {
+    transform:scale(1.0);
+}
+.connect .icon-section i{
+    width: 20%;
+    margin-right: 30px;
+    color: white;
+    padding-left: 10px;
+    
+}
+@media (max-width:  600px){
+    .container .navbar{
+        width: 100%;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .container .navbar .link-one{
+        color: white;
+        text-decoration: none;
+        transition: 0.3s ease;
+        
+    }
+    .container .container-one{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       color: white;
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    
+    }
+    section  .img img{
+        width:90%;
+    }
+
+    section .my-experience{
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+    }
+    section .my-experience .text{
+        line-height: 20px;
+        max-width: 100%;
+        font-size: 14px;
+        padding: 0 20px;
+        text-align: justify;
+
+    
+    } 
+    section .my-experience .text .section-header{
+        text-align: center;
+        margin-bottom: 10px;
+    } 
+
+    .portfolio-page{
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+
+    .portfolio-page .portfolio{
+        width: 100%;
+    }
+
+    .connect{
+        background-color:rgba(10, 8, 6, 0.795);
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .connect .connect-header{
+        font-size: 20px;
+        padding: 20px 10px;
+    }
+    .connect .icon-section{
+        width: 80%;
+        margin-top: 0;
+        display: flex;
+        justify-content:space-between;
+    
+    }
+    .connect .icon-section a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+    .connect .icon-section i{
+        font-size: 20px;
+    }
+
+    .connect .icon-section span{
+        font-size: 14px;
+        margin: 4px;
+    }
+}
+
+@media (max-width:  400px){
+    .container .navbar{
+        font-size: 12px;    
+    }
+
+    .container .navbar .link-one{
+        display:inline-block;
+        padding:5px 10px;
+    }
+
+  .container .container-one{
+    margin: 150px 0px;
+   }
+}

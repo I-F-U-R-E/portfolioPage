@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(215, 224, 224);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aside{
+    position: fixed;
+    width: 25%;
+    border-right: 2px solid rgb(90, 78, 78);
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+.maindoc{
+    width: 75%;
+    margin-left: 25%; 
+    padding-left: 15px;
+    padding-right: 10px;
+}
+.maindoc li {
+    margin-bottom: 15px;
+}
+.maindoc h3{
+    color:rgb(136, 7, 7);
+}
+.notepad{
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    /* margin-left: 10px; */
+    padding-top: 10px;
+    font-family: monospace;
+    color: green;
+    overflow-x: auto;
+    font-size: small;
+    font-weight: 700;
+}
+ .aside .header{
+    font-weight: bolder;
+    font-size: 20px;
+    font-variant: small-caps;
+    padding: 20px 5px;
+    text-align:center;
+    border-bottom: 1px solid black;
+    color:rgb(136, 7, 7);
+}
+.aside .aside-body{
+    overflow-y: auto;
+}
+.aside .aside-body a{
+   display: inline-block;
+    padding: 0;
+}
+.aside .aside-body a{
+    border-bottom: 1px solid black;
+    padding: 10px 5px ;
+    text-indent: 15px;
+}
+.aside .aside-body a{
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+    display: block;
+    
+}
+.aside .aside-body a:hover{
+    background-color: rgba(133, 195, 214, 0.199);
+    transform: scaleY(1);
+    font-size: 15px;
+    text-align: center;
+}
+@media (max-width:  600px){
+    body{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .aside{
+        position: static;
+        width: 100%;
+        border-right: 2px solid rgb(90, 78, 78);
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        border: 2px solid grey;
+    }
+    .maindoc{
+        width: 100%;
+        margin: auto; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .aside .aside-body a{
+        border-bottom: 1px solid black;
+        padding: 5px 5px ;
+        text-indent: 15px;
+    }
+    
+    
+
+}
